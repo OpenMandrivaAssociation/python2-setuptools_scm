@@ -15,14 +15,14 @@ BuildArch:	noarch
 Tool to manage python package versions by scm tags
 
 %files
-%{py_puresitedir}/setuptools_scm*
+%{py2_puresitedir}/setuptools_scm*
 
 %prep
 %setup -qn setuptools_scm-%{version}
 
 %build
-python setup.py build
+python2 setup.py build
 
 %install
-python setup.py install --root %{buildroot}
+python2 setup.py install --root %{buildroot}
 
