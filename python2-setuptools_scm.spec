@@ -1,7 +1,7 @@
 Summary:	Tool to manage python package versions by scm tags
 Name:		python2-setuptools_scm
 Version:	3.3.3
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	MIT
 Url:		https://pypi.org/project/setuptools_scm/#files
